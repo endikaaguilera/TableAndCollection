@@ -13,6 +13,10 @@
 		C4E159EB217CA2BC00908321 /* TableAndCollection.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C4E159E9217CA2BC00908321 /* TableAndCollection.xcdatamodeld */; };
 		C4E159ED217CA2BC00908321 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4E159EC217CA2BC00908321 /* Assets.xcassets */; };
 		C4E159F0217CA2BC00908321 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C4E159EE217CA2BC00908321 /* LaunchScreen.storyboard */; };
+		C4E159FA217CA67300908321 /* Superhero.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E159F9217CA67300908321 /* Superhero.swift */; };
+		C4E159FC217CAB9D00908321 /* SuperheroDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E159FB217CAB9C00908321 /* SuperheroDetailViewController.swift */; };
+		C4E159FE217CB13900908321 /* SuperheroCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E159FD217CB13900908321 /* SuperheroCollectionViewController.swift */; };
+		C4E15A06217CB5D400908321 /* SuperheroCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4E15A05217CB5D400908321 /* SuperheroCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		C4E159EC217CA2BC00908321 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C4E159EF217CA2BC00908321 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C4E159F1217CA2BC00908321 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C4E159F9217CA67300908321 /* Superhero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Superhero.swift; sourceTree = "<group>"; };
+		C4E159FB217CAB9C00908321 /* SuperheroDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroDetailViewController.swift; sourceTree = "<group>"; };
+		C4E159FD217CB13900908321 /* SuperheroCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroCollectionViewController.swift; sourceTree = "<group>"; };
+		C4E15A05217CB5D400908321 /* SuperheroCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuperheroCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +66,13 @@
 			children = (
 				C4E159E2217CA2BC00908321 /* AppDelegate.swift */,
 				C4E159E4217CA2BC00908321 /* ViewController.swift */,
+				C4E159F9217CA67300908321 /* Superhero.swift */,
+				C4E159FB217CAB9C00908321 /* SuperheroDetailViewController.swift */,
+				C4E159FD217CB13900908321 /* SuperheroCollectionViewController.swift */,
+				C4E15A05217CB5D400908321 /* SuperheroCollectionViewCell.swift */,
 				C4E159E6217CA2BC00908321 /* Main.storyboard */,
-				C4E159EC217CA2BC00908321 /* Assets.xcassets */,
 				C4E159EE217CA2BC00908321 /* LaunchScreen.storyboard */,
+				C4E159EC217CA2BC00908321 /* Assets.xcassets */,
 				C4E159F1217CA2BC00908321 /* Info.plist */,
 				C4E159E9217CA2BC00908321 /* TableAndCollection.xcdatamodeld */,
 			);
@@ -140,7 +152,11 @@
 			files = (
 				C4E159E5217CA2BC00908321 /* ViewController.swift in Sources */,
 				C4E159E3217CA2BC00908321 /* AppDelegate.swift in Sources */,
+				C4E159FE217CB13900908321 /* SuperheroCollectionViewController.swift in Sources */,
+				C4E159FC217CAB9D00908321 /* SuperheroDetailViewController.swift in Sources */,
 				C4E159EB217CA2BC00908321 /* TableAndCollection.xcdatamodeld in Sources */,
+				C4E159FA217CA67300908321 /* Superhero.swift in Sources */,
+				C4E15A06217CB5D400908321 /* SuperheroCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
